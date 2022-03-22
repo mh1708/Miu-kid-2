@@ -61,6 +61,16 @@
         text-align: center;
     }
     
+    #header ul.header-right {
+        padding: 0
+    }
+    
+    #header .responsive-sign-in a {
+        color: var(--text-color);
+        display: block;
+        font-weight: 600;
+    }
+    
     #header ul.header-right li {
         padding: 0 0 0 28px
     }
@@ -102,7 +112,7 @@
     #header .header-search input {
         border-radius: 20px;
         outline: none;
-        padding: 5px 20px;
+        padding: 5px 45px;
         border: none;
     }
     
@@ -116,7 +126,7 @@
     }
     
     #header .header_cart {
-        padding-left: 50px;
+        padding-left: 25px;
     }
     
     #header .header_cart i {
